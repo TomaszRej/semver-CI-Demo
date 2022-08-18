@@ -15,7 +15,7 @@ const App = () => {
     <SafeAreaView>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.container}>
-        <Text>HELLO WORLD</Text>
+        <Text>HELLO WORLD!</Text>
       </View>
     </SafeAreaView>
   );
