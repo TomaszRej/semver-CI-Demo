@@ -14,11 +14,15 @@
     "release": "release-it",
     "release-patch": "release-it -- patch",
     "release-minor": "release-it -- minor",
-    "release-major": "release-it -- major"
+    "release-major": "release-it -- major",
+    "major": "rnsemup -b -u major",
+    "minor": "rnsemup -b -u minor",
+    "patch": "rnsemup -b -u patch"
   },
   "dependencies": {
     "react": "18.0.0",
     "react-native": "0.69.4",
+    "react-native-semver-update": "^1.1.2",
     "release-it": "^15.3.0"
   },
   "devDependencies": {
