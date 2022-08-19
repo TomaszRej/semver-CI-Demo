@@ -16,7 +16,7 @@ const App = () => {
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.container}>
-        <Text>HELLO WORLD</Text>
+        <Text>HELLO WORLD!</Text>
         <Text>VERSION: {DeviceInfo.getVersion()}</Text>
         <Text>BUILD NUMBER: {DeviceInfo.getBuildNumber()}</Text>
       </View>
